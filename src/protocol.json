@@ -31,7 +31,10 @@
         "items": [
           {
             "text": "Digital Trails",
-            "icon": "/icons/trails.png",
+            "icon": {
+              "url": "/icons/trails.png",
+              "tint": true
+            },
             "action": "https://digital-trails.org",
             "backgroundcolor": "#1A206AFF"
           },
