@@ -4,10 +4,57 @@
     "title": "MindTrails",
     "elements": [
       {
+        "type": "Alert",
+        "text": "Demo Protocol",
+        "subtext": "testing this protocol"
+      },
+      {
         "type": "Tiles",
         "items": [
           {
-            "text": "test"
+            "text": "{0} Sessions Completed",
+            "icon": "/icons/flower.png"
+          },
+          {
+            "text": "Launch Session",
+            "icon": "/icons/seedling.png",
+            "action": ""
+          }
+        ]
+      },
+      {
+        "type": "Button",
+        "text": "Show Surveys"
+      },
+      {
+        "type": "Tiles",
+        "items": [
+          {
+            "text": "Digital Trails",
+            "icon": "/icons/trails.png",
+            "action": "https://digital-trails.org",
+            "backgroundcolor": "#1A206AFF"
+          },
+          {
+            "text": "Demo Source",
+            "icon": "/icons/github.png",
+            "action": "https://digital-trails.org",
+            "backgroundcolor": "#1A00E05A"
+          },
+          {
+            "text": "Page",
+            "icon": {
+              "url": "/icons/page.png",
+              "tint": true
+            },
+            "action": "page://flows/resources.json",
+            "backgroundcolor": "#1A00C2FF"
+          },
+          {
+            "text": "Flow",
+            "icon": "/icons/pages.png",
+            "action": "flow://flows/what is anxiety.json",
+            "backgroundcolor": "#1A5C2FDA"
           }
         ]
       }
