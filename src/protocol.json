@@ -84,5 +84,13 @@
       "action": "notification",
       "content": "flow://flows/track your progress/"
     }
+  ],
+  "probes": [
+    {
+      "type": "Location",
+      "optional": true,
+      "interval": "00:00:01",
+      "accuracy": 5
+    }
   ]
 }
