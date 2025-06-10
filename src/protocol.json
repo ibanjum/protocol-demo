@@ -27,7 +27,7 @@
         "text": "Show Surveys"
       },
       {
-        "type": "Tiles",
+        "type": "Carousel",
         "items": [
           {
             "text": "Digital Trails",
