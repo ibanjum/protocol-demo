@@ -9,7 +9,7 @@
         "subtext": "testing this protocol"
       },
       {
-        "type": "Button",
+        "type": "Sessions",
         "text": "Launch Session",
         "icon": "/icons/seedling.png",
         "action": "flow://flows/what is anxiety.json",
