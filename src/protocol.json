@@ -33,7 +33,7 @@
             "text": "Digital Trails",
             "icon": {
               "url": "/icons/trails.png",
-              "tint": true
+              "tint": false
             },
             "action": "https://digital-trails.org",
             "backgroundcolor": "#1A206AFF"
@@ -48,7 +48,7 @@
             "text": "Page",
             "icon": {
               "url": "/icons/page.png",
-              "tint": true
+              "tint": false
             },
             "action": "page://flows/resources.json",
             "backgroundcolor": "#1A00C2FF"
