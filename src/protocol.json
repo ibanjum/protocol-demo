@@ -13,6 +13,7 @@
         "text": "Launch Session",
         "icon": "/icons/seedling.png",
         "action": "flow://flows/what is anxiety.json",
+        "backgroundcolor": "#1A206AFF"
       },
       {
         "type": "Button",
