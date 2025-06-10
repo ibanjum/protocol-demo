@@ -12,10 +12,6 @@
         "type": "Tiles",
         "items": [
           {
-            "text": "{0} Sessions Completed",
-            "icon": "/icons/flower.png"
-          },
-          {
             "text": "Launch Session",
             "icon": "/icons/seedling.png",
             "action": ""
