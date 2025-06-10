@@ -9,14 +9,10 @@
         "subtext": "testing this protocol"
       },
       {
-        "type": "Tiles",
-        "items": [
-          {
-            "text": "Launch Session",
-            "icon": "/icons/seedling.png",
-            "action": ""
-          }
-        ]
+        "type": "Button",
+        "text": "Launch Session",
+        "icon": "/icons/seedling.png",
+        "action": "flow://flows/what is anxiety.json",
       },
       {
         "type": "Button",
