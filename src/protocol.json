@@ -23,7 +23,6 @@
       },
       {
         "type": "Carousel",
-        "mark_completed": true,
         "items": [
           {
             "text": "Digital Trails",
@@ -32,7 +31,8 @@
               "tint": false
             },
             "action": "https://digital-trails.org",
-            "backgroundcolor": "#1A206AFF"
+            "backgroundcolor": "#1A206AFF",
+             "mark_completed": true,
           },
           {
             "text": "Demo Source",
@@ -41,7 +41,8 @@
               "tint": false
             },
             "action": "https://digital-trails.org",
-            "backgroundcolor": "#1A00E05A"
+            "backgroundcolor": "#1A00E05A",
+             "mark_completed": true,
           },
           {
             "text": "Page",
@@ -50,7 +51,8 @@
               "tint": false
             },
             "action": "page://flows/resources.json",
-            "backgroundcolor": "#1A00C2FF"
+            "backgroundcolor": "#1A00C2FF",
+             "mark_completed": true,
           },
           {
             "text": "Flow",
@@ -59,7 +61,8 @@
               "tint": false
             },
             "action": "flow://flows/what is anxiety.json",
-            "backgroundcolor": "#1A5C2FDA"
+            "backgroundcolor": "#1A5C2FDA",
+             "mark_completed": true,
           }
         ]
       }
