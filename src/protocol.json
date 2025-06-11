@@ -17,10 +17,13 @@
       },
       {
         "type": "Button",
-        "text": "Show Surveys"
+        "text": "Show Surveys",
+        "action": "nav://Survey",
+        
       },
       {
         "type": "Carousel",
+        "mark_completed": true,
         "items": [
           {
             "text": "Digital Trails",
@@ -33,7 +36,10 @@
           },
           {
             "text": "Demo Source",
-            "icon": "/icons/github.png",
+            "icon": {
+              "url": "/icons/github.png",
+              "tint": false
+            },
             "action": "https://digital-trails.org",
             "backgroundcolor": "#1A00E05A"
           },
@@ -48,7 +54,10 @@
           },
           {
             "text": "Flow",
-            "icon": "/icons/pages.png",
+            "icon": {
+              "url": "/icons/pages.png",
+              "tint": false
+            },
             "action": "flow://flows/what is anxiety.json",
             "backgroundcolor": "#1A5C2FDA"
           }
