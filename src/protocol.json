@@ -4,11 +4,65 @@
     "title": "MindTrails",
     "elements": [
       {
-        "type": "Sessions",
-        "text": "Launch Session",
-        "icon": "/icons/seedling.png",
-        "action": "flow://flows/what is anxiety.json",
-        "backgroundcolor": "#1A206AFF"
+        "type": "sessions",
+        "left": {
+          "text": "{0} Completed Sessions",
+          "icon": "/icons/flower.png"
+        },
+        "right": {
+          "text": "Launch Session",
+          "icon": "/icons/seedling.png",
+          "action": "flow://flows/what is anxiety.json"
+        }
+      },
+      {
+        "type": "carousel",
+        "actions": [
+          {
+            "text": "Digital Trails",
+            "icon": {
+              "url": "/icons/trails.png",
+              "tint": false
+            },
+            "action": "https://digital-trails.org",
+            "backgroundcolor": "#1A206AFF",
+            "markcompleted": true,
+            
+          },
+          {
+            "text": "Demo Source",
+            "icon": {
+              "url": "/icons/github.png",
+              "tint": false
+            },
+            "action": "https://digital-trails.org",
+            "backgroundcolor": "#1A00E05A",
+            "markcompleted": true,
+            
+          },
+          {
+            "text": "Page",
+            "icon": {
+              "url": "/icons/page.png",
+              "tint": false
+            },
+            "action": "page://flows/resources.json",
+            "backgroundcolor": "#1A00C2FF",
+            "markcompleted": true,
+            
+          },
+          {
+            "text": "Flow",
+            "icon": {
+              "url": "/icons/pages.png",
+              "tint": false
+            },
+            "action": "flow://flows/what is anxiety.json",
+            "backgroundcolor": "#1A5C2FDA",
+            "markcompleted": true,
+            
+          }
+        ]
       }
     ]
   },
