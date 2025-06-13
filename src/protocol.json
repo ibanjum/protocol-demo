@@ -6,7 +6,8 @@
       {
         "type": "alert",
         "title": "Alert title",
-        "message": "Alert message"
+        "message": "Alert message",
+        "icon": "/assets/home_mindtrails.png"
       },
       {
         "type": "sessions",
