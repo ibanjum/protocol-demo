@@ -75,6 +75,47 @@
             
           }
         ]
+      },
+      {
+        "type": "tiles",
+        "actions": [
+          {
+            "text": "Digital Trails",
+            "icon": {
+              "url": "/icons/trails.png",
+              "tint": false
+            },
+            "action": "https://digital-trails.org",
+            "backgroundcolor": "#1A206AFF"
+          },
+          {
+            "text": "Demo Source",
+            "icon": {
+              "url": "/icons/github.png",
+              "tint": false
+            },
+            "action": "https://digital-trails.org",
+            "backgroundcolor": "#1A00E05A"
+          },
+          {
+            "text": "Page",
+            "icon": {
+              "url": "/icons/page.png",
+              "tint": false
+            },
+            "action": "page://flows/resources.json",
+            "backgroundcolor": "#1A00C2FF"
+          },
+          {
+            "text": "Flow",
+            "icon": {
+              "url": "/icons/pages.png",
+              "tint": false
+            },
+            "action": "flow://flows/what is anxiety.json",
+            "backgroundcolor": "#1A5C2FDA"
+          }
+        ]
       }
     ]
   },
