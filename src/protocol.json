@@ -22,8 +22,10 @@
       },
       {
         "type": "button",
-        "text": "Show Surveys",
-        "action": "nav://surveypage"
+        "action": {
+          "text": "Show Surveys",
+          "action": "nav://surveypage"
+        }
       },
       {
         "type": "carousel",
