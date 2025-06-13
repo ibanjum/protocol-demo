@@ -24,7 +24,7 @@
         "type": "button",
         "action": {
           "text": "Show Surveys",
-          "action": "navpage://Survey"
+          "action": "navmodal://Survey"
         }
       },
       {
