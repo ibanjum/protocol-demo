@@ -8,10 +8,9 @@
         "title": "Alert title",
         "message": "Alert message",
         "icon": {
-          "url": "/assets/home_mindtrails.png",
+          "url": "/icons/trails.png",
           "tint": false
-        },
-        
+        }
       },
       {
         "type": "sessions",
